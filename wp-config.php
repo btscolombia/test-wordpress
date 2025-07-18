@@ -35,6 +35,13 @@ define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', true);
 
+// DEBUG TEMPORAL - REMOVER DESPUÉS
+error_log('=== WordPress Debug Info ===');
+error_log('DB_HOST: ' . DB_HOST);
+error_log('DB_NAME: ' . DB_NAME);  
+error_log('DB_USER: ' . DB_USER);
+error_log('DB_PASSWORD: ' . (DB_PASSWORD ? 'SET' : 'NOT SET'));
+error_log('===============================');
 /**
  * WordPress URLs
  */
