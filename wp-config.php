@@ -2,6 +2,8 @@
 /**
  * The base configuration for WordPress
  */
+// Forzar instalación fresca
+define('WP_INSTALLING', true);
 
 // ** Database settings ** //
 define('DB_NAME', 'railway');
