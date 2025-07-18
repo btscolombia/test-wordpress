@@ -31,7 +31,9 @@ $table_prefix = 'wp_';
 /**
  * For developers: WordPress debugging mode.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
 
 /**
  * WordPress URLs
