@@ -5,11 +5,9 @@
 
 // ** Database settings ** //
 define('DB_NAME', 'railway');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'oTRpSwMtEuexbxlGHUdJeVvNCXRuoKuQ');
+define('DB_USER', 'wordpress');
+define('DB_PASSWORD', 'wp_secure_123');
 define('DB_HOST', 'mysql-68305d35.railway.internal');
-define('DB_CHARSET', 'utf8mb4');
-define('DB_COLLATE', '');
 
 /**
  * Authentication unique keys and salts.
